@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test Results - CHROME 80.0.3987.149 Windows </title>
+
+  <style>
+    html, body {
+      font-family: Arial,sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    body { padding: 10px 40px; }
+    table { width: 100%; margin-bottom: 20px; }
+      td {
+        padding: 7px;
+        border-top: none;
+        border-left: 1px black solid;
+        border-bottom: 1px black solid;
+        border-right: none;
+      }
+      td.pass { color: #003b07; background: #86e191; }
+      td.skip { color: #7d3a00; background: #ffd24a; }
+      td.fail { color: #5e0e00; background: #ff9c8a; }
+    tr:last-child       { border-top: 1px black solid; }
+      tr:last-child td    { border-top: 1px black solid; }
+      tr:first-child td   { border-top: 1px black solid; }
+        td:last-child       { border-right: 1px black solid; }
+    tr.overview td      { padding-bottom: 0px; border-bottom: none; }
+    tr.overview.last td { padding-bottom: 3px; }
+    ul.assertions   { list-style-type: none; }
+      span.error      { color: #AD2B2B; }
+      span.success    { color: #53891E; }
+    .stacktrace { display: inline; }
+      .stacktrace code { display: none; }
+    #nightwatch-logo {
+      position: absolute;
+      top: 20px;
+      right: 33px;
+      width: 70px;
+      height: 75px;
+      background: transparent url('http://nightwatchjs.org/img/logo-nightwatch.png') no-repeat;
+      background-size: 70px 75px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Test Results</h1>
+
+  <table border="0" cellpadding="0" cellspacing="0">
+    <tr class="overview">
+      <td colspan="3" title="CHROME 80.0.3987.149 Windows "><strong>Browser:</strong> CHROME 80.0.3987.149 Windows </td>
+    </tr>
+    <tr class="overview">
+      <td colspan="3"><strong>Timestamp:</strong> Sun Mar 29 2020 21:45:40 GMT-0300 (GMT-03:00)</td>
+    </tr>
+    <tr class="overview last">
+      <td colspan="3"><strong>Tests:</strong> 0<br></td>
+    </tr>
+    <tr>
+      <td class="pass"><strong>7</strong> passed</td>
+      <td class="skip"><strong>0</strong> errors</td>
+      <td class="fail"><strong>0</strong> failures</td>
+    </tr>
+  </table>
+
+      <h2>LoginTest</h2>
+
+        <h3>Test1: Login - Credenciales Incorrectas</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              El elemento &#x27;input Search&#x27; se visualiza correctramente! [0;90m(46ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;input[name&#x3D;btnK]&gt; was visible after 582 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              El boton Sitio Web se visualiza correctamente!
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;//*[@id&#x3D;&quot;bloquerecetas&quot;]/div/div[1]/div/h2&gt; was visible after 143 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;//*[@id&#x3D;&quot;bloquerecetas&quot;]/div/div[2]/div[1]/a[2]/h3&gt; was visible after 34 milliseconds.
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>5</strong></span> assertions passed. (16.76s)
+        </p>
+        <h3>Validación nuevo tab</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Ingrediente PIMIENTA visible
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Ingrediente OREGANO visible
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>2</strong></span> assertions passed. (3.855s)
+        </p>
+
+
+      <hr>
+
+  <div id="nightwatch-logo"></div>
+
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script>
+  $(function() {
+    $('div.stacktrace').on('click', 'a', function(evt) {
+      evt.preventDefault();
+      var $link = $(this);
+      var $code = $link.parent().find('code');
+      $code.is(':visible') ? $link.text('hide stacktrace'):
+                             $link.text('view stacktrace');
+      $code.toggle();
+    });
+  });
+  </script>
+</body>
+</html>

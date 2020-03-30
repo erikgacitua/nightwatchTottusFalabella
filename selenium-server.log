@@ -1,0 +1,66 @@
+21:45:15.109 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+21:45:15.203 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
+2020-03-29 21:45:15.253:INFO::main: Logging initialized @402ms to org.seleniumhq.jetty9.util.log.StdErrLog
+21:45:15.499 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+21:45:15.888 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
+21:45:16.226 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "browserName": "chrome",
+  "chromeOptions": {
+    "w3c": false,
+    "args": [
+      "start-fullscreen",
+      "start-maximized"
+    ]
+  },
+  "name": "Login Test"
+}
+21:45:16.227 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 2354
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+21:45:18.974 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+21:45:19.258 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 931a4b04387bcb2d112317c1b42abdd6 (org.openqa.selenium.chrome.ChromeDriverService)
+[1585529119.910][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529120.378][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529120.607][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529122.432][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529122.534][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529122.637][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529122.946][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529123.280][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529123.382][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529125.187][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529125.373][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529125.511][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529125.614][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529125.715][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529125.817][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529125.918][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529126.039][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529126.298][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529137.217][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529137.320][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529137.422][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529137.525][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529137.627][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529137.729][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529137.831][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529137.934][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529138.037][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529138.139][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529138.241][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529138.344][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529138.446][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529138.549][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529138.651][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529138.753][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529138.858][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529138.960][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529139.062][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529139.164][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529139.267][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529139.371][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529139.473][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529139.575][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585529139.678][SEVERE]: Timed out receiving message from renderer: 0.100
+21:45:39.982 INFO [ActiveSessions$1.onStop] - Removing session 931a4b04387bcb2d112317c1b42abdd6 (org.openqa.selenium.chrome.ChromeDriverService)

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="login_test"
+    errors="1" failures="0" hostname="" id="" package="login_test" skipped="1"
+    tests="1" time="0.02500" timestamp="">
+  
+    <testcase name="Test1: Login - Credenciales Correctas" classname="login_test" time="0.02500" assertions="0">
+      <error message="Cannot read property &#39;includes&#39; of null" type="error">TypeError: Cannot read property &#39;includes&#39; of null
+    at Function.relativeUrl (C:\Users\erick.gacitua\AppData\Roaming\npm\node_modules\nightwatch\lib\utils\index.js:453:18)
+    at Page.&lt;anonymous&gt; (C:\Users\erick.gacitua\AppData\Roaming\npm\node_modules\nightwatch\lib\page-object\index.js:114:17)
+    at Object.Test1: Login - Credenciales Correctas (C:\Users\erick.gacitua\Desktop\pruebaNightwatch\tests\login_test.js:5:13)
+    at Context.call (C:\Users\erick.gacitua\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\context.js:379:35)
+    at TestCase.run (C:\Users\erick.gacitua\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\testcase.js:49:31)
+    at Runnable.__runFn (C:\Users\erick.gacitua\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\index.js:374:80)
+    at Runnable.run (C:\Users\erick.gacitua\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\runnable.js:123:21)
+    at TestSuite.createRunnable (C:\Users\erick.gacitua\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\index.js:441:33)
+    at TestSuite.handleRunnable (C:\Users\erick.gacitua\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\index.js:446:18)
+    at C:\Users\erick.gacitua\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\index.js:374:21</error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  TypeError: Cannot read property &#39;includes&#39; of null[0m
+[0;90m       at Object.Test1: Login - Credenciales Correctas (C:\Users\erick.gacitua\Desktop\pruebaNightwatch\tests\login_test.js:5:13)[0m
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Test2: Login - Credenciales Incorrectas" classname="login_test">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
